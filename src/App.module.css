@@ -1,0 +1,153 @@
+* {
+    background-color: #F8F9FA;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    background-color: #1E255D;
+    width: 30px;
+    height: 30px;
+    padding: 6px;
+    color: white;
+    font-size: 17px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.brandName {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.brandName a {
+    text-decoration: none;
+    color: #1E255D;
+}
+
+.ul {
+    display: flex;
+    gap: 30px;
+}
+
+.ul a {
+    list-style: none;
+    text-decoration: none;
+    color: #1E255D;
+    transition: all 0.3s ease;
+}
+
+.ul a:hover {
+    color: #3C4EF3;
+}
+
+.pages {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.button {
+    border: none;
+    background: transparent;
+    color: white;
+    border-radius: 40px;
+    background-color: #3C4EF3;
+    padding: 10px 18px 10px 18px;
+    font-size: 16px;
+}
+
+.button:hover {
+    background-color: #1E255D;
+}
+
+/* hero */
+
+.hero {
+    margin-top: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.heroGroup {
+    margin-top: 69px;
+    display: flex;
+}
+
+.heroTitle {
+    color: #1E255D;
+    font-size: 64px;
+    width: 441px;
+    height: 288px;
+    line-height: 89px;
+    font-weight: 700;
+}
+
+.desc {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    opacity: 0.6;
+    margin-bottom: 50px;
+}
+
+
+.download {
+    display: flex;
+    gap: 10px;
+}
+
+.icon {
+    width: 200px;
+    height: 60px;
+    background-color: #E5E7F9;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-decoration: none;
+    border-radius: 100px;
+    gap: 10px;
+}
+
+.icon:hover {
+    background-color: #c6c6f7;
+}
+
+.icon img {
+    background-color: #E5E7F9;
+    transition: all 3s ease;
+}
+
+.icon img:hover {
+    background-color: #c6c6f7;
+}
+
+.img {
+    margin-left: 242px;
+}
+
+.img img {
+    width: 600px;
+    height: 500px;
+}
